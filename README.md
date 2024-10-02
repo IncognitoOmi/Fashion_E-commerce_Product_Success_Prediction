@@ -19,7 +19,7 @@ The data consists of two files:
 ## Project Structure
 ```bash
 .
-├── eda.ipynb               # Notebook for Exploratory Data Analysis (EDA)
+├── EDA.ipynb               # Notebook for Exploratory Data Analysis (EDA)
 ├── model_training.ipynb     # Notebook for model training and selection
 ├── model_prediction.ipynb   # Notebook for generating predictions
 ├── data/
@@ -33,7 +33,7 @@ The data consists of two files:
    - Performed EDA on `historic.csv` to analyze patterns and relationships in the data.
    - Checked for missing values, explored the distribution of features like `category`, `main_promotion`, `color`, and `stars`, and analyzed the correlation between the features and the target variable `success_indicator`.
    
-   Notebook: [eda.ipynb](eda.ipynb)
+   Notebook: [EDA.ipynb](EDA.ipynb)
 
 2. **Model Training**:
    - Used PyCaret to train and evaluate multiple classification models.
